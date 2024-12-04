@@ -1,0 +1,10 @@
+body {
+  animation: sack 5s linear infinite;
+  transition: 1.5s linear;
+}
+@keyframes sack {
+  0% {
+    margin-bottom: 50%;
+    background: red;
+  }
+}
